@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  display: flex;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+#input {
+  width: 50%;
+  height:100%;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+#output {
+  width: 50%;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+#input_header {
+  height: 3em;
+}
+
+#input_header h3{
+  line-height: 3em;
+}
+
+#output_header {
+  height: 3em;
+}
+
+#output_header h3{
+  line-height: 3em;
+}
+
+#input_text {
+  width: 100%;
+  height: calc(100vh - 10em);
+  resize: none;
+}
+
+#output_text {
+  width: 100%;
+  height: calc(100vh - 10em);
+  resize: none;
+  color: white;
+  background-color: black;
+}
